@@ -27,6 +27,8 @@ const App = () => {
 
   console.log('data', data);
 
+  const handleAddToCart = (clickedItem: CartItemType) => null;
+
   if (isLoading) return <LinearProgress />;
   if (error) return <div>Something went wrong...</div>;
 
